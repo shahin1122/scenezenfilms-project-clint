@@ -1,0 +1,14 @@
+.connectedInfo{
+    height: 600px;
+    
+    
+}
+
+.connectedInfo input{
+   text-align: center;
+   background: linear-gradient(to right ,#C33764 0%, #1D2671 100%);
+   color: rgb(255, 255, 255);
+   font-size: 1.5rem;
+   border-radius: 10px;
+
+}

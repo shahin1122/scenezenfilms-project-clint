@@ -1,0 +1,23 @@
+.serviceArea{
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(3, 170, 73);
+    color: ghostwhite;
+    text-align: center;
+
+    
+}
+
+.serviceArea input{
+    padding: 10px;
+    border-radius: 15px;
+    padding: 0 20px;
+
+}
+
+.serviceArea textarea{
+    border-radius: 20px;
+    padding: 20px;
+}
+

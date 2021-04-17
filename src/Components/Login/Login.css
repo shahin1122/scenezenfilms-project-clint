@@ -1,0 +1,35 @@
+.loginArea{
+    height: 600px;
+    background-color: rgb(42, 42, 42);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px rgba(105, 105, 105, 0.527);
+    background-image: url('../../image/movie.png');
+   
+}
+
+.loginArea img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* margin-left: 45%;
+    margin-right: 40%; */
+    margin-top: 50px;
+
+}
+
+.loginArea button{
+    background-color: rgb(6, 161, 65);
+    color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+

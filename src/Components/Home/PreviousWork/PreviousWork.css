@@ -1,0 +1,16 @@
+.parentDiv{
+    background-image: url('../../../image/workbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.childDiv{
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.418);
+    transition: 0.4s;
+}
+
+.childDiv:hover{
+    opacity: 70%;
+}

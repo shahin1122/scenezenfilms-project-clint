@@ -1,0 +1,36 @@
+.backgroundSet{
+    background-image: url('../../../image/BG-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerImage{
+    border-radius: 20px;
+    opacity: 90%;
+    transition: 0.4s;
+
+}
+.textBackground{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+
+.headerImage:hover{
+    opacity: 80%;
+    box-shadow: 5px 5px 10px dimgray;
+
+}
+
+.exploreBtn{
+    padding: 7px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #C33764 0%, #1D2671 100%);
+    color: floralwhite;
+    transition: 0.4s;
+}
+
+.exploreBtn:hover{
+    background: linear-gradient(to left, #C33764 0%, #1D2671 100%);
+
+
+}
+

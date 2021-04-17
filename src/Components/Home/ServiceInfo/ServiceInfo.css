@@ -1,0 +1,13 @@
+.parentSection{
+    
+        background-image: url('../../../image/service.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+ 
+}
+
+h1{
+    color: floralwhite;
+    text-align: center;
+}

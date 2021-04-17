@@ -1,0 +1,15 @@
+
+.cardSection{
+    background: linear-gradient(to bottom, #C33764 0%, #1D2671 100%);
+    border-radius: 15px;
+    box-shadow: 10px 10px 14px rgb(0, 0, 0);
+    color: floralwhite;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardSection:hover{
+    transform: scale(1.06);
+    opacity: 80%;
+    
+
+}
