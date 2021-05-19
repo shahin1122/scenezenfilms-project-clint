@@ -30,13 +30,13 @@ const Navbar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
+      <div class="navbar-nav ">
         <Link class="nav-link text-light mx-5 px-3" aria-current="page" to="/">Home</Link>
         <Link class="nav-link text-light mx-5 px-3" to="/addService">Admin</Link>
         <Link class="nav-link text-light mx-5 px-3" to="/booking">About Us</Link>
         
 
-        <button onClick={logOut}> <a href="/">Logout</a> </button>
+        <button className="logout-btn" onClick={logOut}> <a href="/">Logout</a> </button>
       </div>
     </div>
   </div>

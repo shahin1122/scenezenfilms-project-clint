@@ -2,6 +2,7 @@
     background-image: url('../../../image/workbg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    /* border-radius: 20px; */
 
 
 }
@@ -9,8 +10,9 @@
 .childDiv{
     box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.418);
     transition: 0.4s;
+    border-radius: 5%;
 }
 
-.childDiv:hover{
+/* .childDiv:hover{
     opacity: 70%;
-}
+} */

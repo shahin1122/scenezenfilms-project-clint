@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .backgroundSet{
     background-image: url('../../../image/BG-1.jpg');
     background-repeat: no-repeat;
@@ -5,7 +11,7 @@
 }
 .headerImage{
     border-radius: 20px;
-    opacity: 90%;
+    /* opacity: 90%; */
     transition: 0.4s;
 
 }
@@ -14,11 +20,11 @@
     border-radius: 10px;
 }
 
-.headerImage:hover{
+/* .headerImage:hover{
     opacity: 80%;
     box-shadow: 5px 5px 10px dimgray;
 
-}
+} */
 
 .exploreBtn{
     padding: 7px 20px;
@@ -33,4 +39,17 @@
 
 
 }
+
+/* headerImage */
+
+
+
+@media screen and (min-width: 400px) {
+    .headerImage {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        
+    }
+  }
 

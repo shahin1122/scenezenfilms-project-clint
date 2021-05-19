@@ -3,3 +3,19 @@
     color: aliceblue;
     
 }
+
+.logout-btn{
+    background: linear-gradient(to right, #5a0a0a  0%, #167c27 100%);
+    border-radius: 5px;
+
+
+
+
+}
+
+.logout-btn a{
+   text-decoration: none !important;
+   list-style-type: none !important;
+   padding: 10px 20px;
+   color: azure;
+}
