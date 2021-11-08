@@ -7,7 +7,10 @@ import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
 import './Login.css'
 import googleImage from '../../image/google-logo-9808.png'
-import { Navbar } from 'react-bootstrap';
+import Navbar from '../Home/Navbar/Navbar'
+
+
+
 
 const Login = () => {
 
@@ -89,10 +92,12 @@ const Login = () => {
         return (
             <div>
                 
+                
         
               
-
+               <Navbar></Navbar>
                <div className="loginArea">
+                    
               
                    <img src={googleImage} className="d-flex justify-content-center center" alt=""/>
                    <button onClick={handleGoogleSignIn} className="googleloginBtn btn my-5 px-5 d-flex justify-content-center">Login With Google</button>

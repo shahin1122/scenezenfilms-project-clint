@@ -45,7 +45,7 @@ useEffect(()=>{
 },[])
 
     return (
-        <div className="row parentDiv">
+        <div className="row parentDiv mx-0 px-0">
             <h1 className="text-light my-5">Review</h1>
             {
                 reviewars.map(details=> <ReviewDeatls details={details}></ReviewDeatls>)

@@ -31,12 +31,14 @@ const Navbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
-        <Link class="nav-link text-light mx-5 px-3" aria-current="page" to="/">Home</Link>
-        <Link class="nav-link text-light mx-5 px-3" to="/addService">Admin</Link>
-        <Link class="nav-link text-light mx-5 px-3" to="/booking">About Us</Link>
+        
+        <Link class="nav-link text-light mx-5 px-3 rainbow rainbow-5" aria-current="page" to="/">Home</Link>
+        <Link class="nav-link text-light mx-5 px-3 rainbow rainbow-5" to="/addService">Admin</Link>
+        <Link class="nav-link text-light mx-5 px-3 rainbow rainbow-5" to="/booking">About Us</Link>
         
 
-        <button className="logout-btn" onClick={logOut}> <a href="/">Logout</a> </button>
+        <button className="logout-btn rainbow rainbow-5" onClick={logOut}> <a href="/">Logout</a> </button>
+           
       </div>
     </div>
   </div>

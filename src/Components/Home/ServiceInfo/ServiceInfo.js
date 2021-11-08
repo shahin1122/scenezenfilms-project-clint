@@ -70,7 +70,7 @@ const ServiceInfo = () => {
      },[])
     
     return (
-        <section className="row parentSection">
+        <section className="row parentSection px-0 mx-0">
             <h1>Our Service</h1>
             
             {

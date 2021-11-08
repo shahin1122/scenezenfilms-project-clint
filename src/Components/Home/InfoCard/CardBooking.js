@@ -72,15 +72,12 @@ const CardBooking = () => {
     
 
     return (
-        <div className="row">
+        <div className="row m-0 p-0">
             <Navbar></Navbar>
             <div className="col-md-1">
-
             </div>
-          
-
-               <div className="col-md-5">
-               <form className="w-80">
+                <div className="col-md-5">
+                <form className="w-80">
                     <div class="form-group">
                     <label for="formGroupExampleInput">Name</label>
                     <p>{loggedInUser.namee}</p>
@@ -91,10 +88,9 @@ const CardBooking = () => {
                     <h4 className="p-4 text-center">Service Price: {cardId}  $</h4>
 
                     <h4 className="text-center">Payment Getway</h4>
-                    <div className="border border-danger">
+                    <div className="border border-danger ">
                         <ProcessPayment></ProcessPayment>
                     </div>
-
                     </div>
                 </form>
                </div>

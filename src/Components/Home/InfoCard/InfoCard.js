@@ -22,7 +22,7 @@ const InfoCard = ({info}) => {
     return (
         <div className="col-md-6 col-lg-4 cardParent">
            
-            <div className="mx-5 my-5 p-5 text-center cardSection">
+            <div className="mx-5 my-5 py-5 text-center cardSection">
                 <img style={{width:'100px' ,height:'100px'}} src={info.imageUrl} alt=""/>
                 <h5>{info.type}</h5>
                 <small>{info.detail}</small>

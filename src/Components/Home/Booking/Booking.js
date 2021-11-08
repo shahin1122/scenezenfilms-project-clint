@@ -1,33 +1,32 @@
 import React from 'react';
 import ProcessPayment from '../../ProcessPayment/ProcessPayment';
 import Review from '../Review/Review';
-import img from '../../../image/Screenshot (252).png'
-import './Booking.css'
 import Navbar from '../Navbar/Navbar'
 
 const Booking = () => {
 
-   
-
-  
-
-    return (
-       
+   return (
        <div >
             <Navbar></Navbar>
+            <h1 className="text-info bg-dark">Booking Card</h1>
+            <div className="row">
+                <div className="col-md-6">
 
-            <div className="bookingDiv">
-            <h1>About US</h1>
-            <img src={img} alt=""/>
+                </div>
+                <div className="col-md-6">
 
+                </div>
             </div>
-          
-       </div>
+            <div className="row">
+                <div className="col-md-6">
 
-           
-            
-        
-    );
+                </div>
+                <div className="col-md-6">
+
+                </div>
+            </div>
+        </div>
+        );
 };
 
 export default Booking;

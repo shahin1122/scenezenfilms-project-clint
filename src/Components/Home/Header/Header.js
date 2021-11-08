@@ -17,7 +17,6 @@ const Header = () => {
             <Review></Review>
             <ConnectedWithUs></ConnectedWithUs>
             <Footer></Footer>
-            
         </div>
     );
 };

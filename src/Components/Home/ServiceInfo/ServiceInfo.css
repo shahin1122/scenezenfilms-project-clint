@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 .parentSection{
     
-        background-image: url('../../../image/service.jpg');
+        /* background-image: url('../../../image/service.jpg'); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -10,4 +12,5 @@
 h1{
     color: floralwhite;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
