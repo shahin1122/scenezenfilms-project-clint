@@ -11,22 +11,6 @@ const stripePromise = loadStripe('pk_test_51Ie0iyKsSEI5PwhrzUqnwAYfhQRdFFsmPU7SV
 const ProcessPayment = () => {
     return (
         <Elements stripe={stripePromise}>
-            {/* <CardElement
-                options={{
-                    style: {
-                        base: {
-                            fontSize: '16px',
-                            color: '#424770',
-                            '::placeholder': {
-                                color: '#aab7c4',
-                            },
-                        },
-                        invalid: {
-                            color: '#9e2146',
-                        },
-                    },
-                }}
-            /> */}
             <SimpleCardForm></SimpleCardForm>
         </Elements>
     );

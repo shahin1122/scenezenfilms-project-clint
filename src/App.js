@@ -14,24 +14,17 @@ import { createContext } from 'react';
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 import CardBooking from './Components/Home/InfoCard/CardBooking';
 import AddService from './Components/AddService/AddService';
-import { Navbar } from 'react-bootstrap';
 
 export const UserContext = createContext();
-
 
 function App() {
   const [loggedInUser , SetLoggedInUser] = useState({})
   return (
-
-  
     <UserContext.Provider value={[loggedInUser , SetLoggedInUser]}>
     <Router>
-      
       <Switch>
-      
         <Route exact path="/">
           <Home></Home>
-
         </Route>
 
         <Route path="/booking">
@@ -46,27 +39,12 @@ function App() {
           <AddService></AddService>
         </PrivateRoute>
 
-
-
-
-
         <Route path="/login">
           <Login></Login>
-
         </Route>
-
-       
-        
       </Switch>
-      
-     
-      </Router>
+    </Router>
   </UserContext.Provider>
-  
-
-
-
-    
   );
 }
 

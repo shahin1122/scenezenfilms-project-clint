@@ -8,38 +8,6 @@ import NewReview from './NewReview';
 import Footer from '../Footer/Footer';
 import Navbar from '../../Home/Navbar/Navbar'
 
-// const infoCardData = [
-//     {
-//         id:1,
-//         budget:4200
-//     },
-
-//     {
-//         id:2,
-//         budget:3200
-//     },
-
-//     {
-//         id:3,
-//         budget:1500
-//     },
-
-//     {
-//         id:4,
-//         budget:1000
-//     },
-
-//     {
-//         id:5,
-//         budget:1200
-//     },
-
-//     {
-//         id:6,
-//         budget:2200
-//     },
-// ]
-
 
 const CardBooking = () => {
 
@@ -61,16 +29,8 @@ const CardBooking = () => {
         .then(data=> setNewData(data))
     },[])
     
-    
-    
-
     const product =  newData.find(pd=> pd.price == cardId)
-    // console.log(product.budget);
-    //console.log(cardId);
-
-
-    
-
+   
     return (
         <div className="row m-0 p-0">
             <Navbar></Navbar>
@@ -96,16 +56,11 @@ const CardBooking = () => {
                </div>
 
                <div className="col-md-5 text-center">
-                   <NewReview></NewReview>
-                  
+                   <NewReview></NewReview>  
                </div>
                <div className="col-md-12 mb-5 pb-5">
-                   
-
-
-                </div>
-
-                <Footer></Footer>
+               </div>
+              <Footer></Footer>
                 
                             
         </div>

@@ -1,5 +1,9 @@
 import React from 'react';
 import './Footer.css'
+import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineTwitter , AiFillGithub , AiFillLinkedin} from 'react-icons/ai'
+
+
 
 const Footer = () => {
     return (
@@ -49,16 +53,14 @@ const Footer = () => {
  
  <p class="footer-company-about">
  <span>About the company</span>
- SceneZen FILMS is a film House that make TVC , Drama , Telefilm  &amp; SEO Learner.
+ SceneZen FILMS is a film House that make TVC , Drama , &amp;  Telefilm .
  </p>
  
  <div class="footer-icons">
- 
- <a href="#"><i class="fa fa-facebook"></i></a>
- <a href="#"><i class="fa fa-twitter"></i></a>
- <a href="#"><i class="fa fa-linkedin"></i></a>
- <a href="#"><i class="fa fa-github"></i></a>
- 
+        <a href="#"><FiFacebook className="facebook-icon-color"/></a>
+        <a href="#"><AiOutlineTwitter className="twiter-icon-color"/></a>
+        <a href="#"><AiFillLinkedin className="linkedin-icon"/></a>
+        <a href="#"><AiFillGithub className="github-icon"/></a>
  </div>
  
  </div>

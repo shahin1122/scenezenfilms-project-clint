@@ -127,10 +127,9 @@ footer{
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color:  #dbdbdb;
+    background-color:  #dbdbdb00;
     border-radius: 2px;
-    
-    font-size: 20px;
+    font-size: 2rem;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
@@ -164,4 +163,21 @@ footer{
     font-size: auto;
     }
     
+   }
+
+   .facebook-icon-color{
+      color: rgb(12, 108, 235);
+   }
+
+   .twiter-icon-color{
+      color: deepskyblue;
+   }
+
+
+   .github-icon{
+      color: black;
+   }
+
+   .linkedin-icon{
+      color: rgb(12, 149, 228);
    }

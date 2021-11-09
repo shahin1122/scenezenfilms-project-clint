@@ -17,7 +17,7 @@ const AddService = () => {
             price : data.exampleRequired2,
             imageUrl: imageUrl,
         };
-        //console.log(eventData )
+        
         const url = `https://guarded-springs-77725.herokuapp.com/addService`;
         fetch(url , {
             method: 'POST',
@@ -44,37 +44,25 @@ const AddService = () => {
               .catch(function (error) {
                 console.log(error);
               });
-
-
-    }
+        }
 
     return (
-        <div>
+      <div>
             <Navbar></Navbar>
+            <form className="serviceArea" onSubmit={handleSubmit(onSubmit)}>
+                <h1>Admin Panel</h1>
+                        <label htmlFor="">Work Type</label><br/>
+                        <input defaultValue=" " {...register("example")} /> <br/>
+                        <label htmlFor="">Work Detail</label> <br/>
+                        <textarea  {...register("exampleRequired", { required: true })} /> <br/>
+                        <label htmlFor="">Set Budget</label> <br/>
+                        <input type='number' {...register("exampleRequired2", { required: true })} /> <br/><br/><br/>
+                        <input onChange={handleImageUpload} type='file' name="exampleRequired3" /> <br/><br/>
 
-    <form className="serviceArea" onSubmit={handleSubmit(onSubmit)}>
-       <h1>Admin Panel</h1>
-        <label htmlFor="">Work Type</label><br/>
-        <input defaultValue=" " {...register("example")} /> <br/>
-        <label htmlFor="">Work Detail</label> <br/>
-        <textarea  {...register("exampleRequired", { required: true })} /> <br/>
-        <label htmlFor="">Set Budget</label> <br/>
-        <input type='number' {...register("exampleRequired2", { required: true })} /> <br/><br/><br/>
-        <input onChange={handleImageUpload} type='file' name="exampleRequired3" /> <br/><br/>
-
-
-    <input type="submit" /><br/><br/>
-
-
-    <button className="btn btn-light rounded"><a href="/">Home</a></button>
-    </form>
-
-
-
-    <Footer></Footer>
-
-            
-            
+                    <input type="submit" /><br/><br/>
+                    <button className="btn btn-light rounded"><a href="/">Home</a></button>
+            </form>
+            <Footer></Footer>
         </div>
     );
 };

@@ -14,7 +14,6 @@ const ReviewDeatls = ({details}) => {
                 
                 <h1 className="text-dark">{details.name}</h1>
                 <p>{details.disc}</p>
-
                 <FontAwesomeIcon icon={details.icon}></FontAwesomeIcon>
                 <FontAwesomeIcon icon={details.icon}></FontAwesomeIcon>
                 <FontAwesomeIcon icon={details.icon}></FontAwesomeIcon>

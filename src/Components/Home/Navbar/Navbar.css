@@ -5,6 +5,11 @@
 }
 
 
+.logout-btn{
+  border: none;
+  outline: none;
+  background: none;
+}
 
 .logout-btn a{
    text-decoration: none !important;
@@ -12,9 +17,6 @@
    padding: 10px 20px;
    color: azure;
 }
-
-
-
 
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
@@ -117,3 +119,20 @@ body{
   padding: 8px 16px;
   text-decoration: none;
 }
+
+
+.scroll-bar-icon{
+  color: #fff;
+}
+
+.scroll-bar-button{
+  border: none;
+  transition: 0.4s;
+}
+
+.scroll-bar-button:active{
+  transform: rotate(90deg);
+  transform: scale(1.2);
+}
+
+

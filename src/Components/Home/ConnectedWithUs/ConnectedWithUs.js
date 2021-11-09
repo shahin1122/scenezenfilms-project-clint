@@ -11,11 +11,7 @@ const ConnectedWithUs = () => {
                 <input className="subject w-50 py-2 my-2" placeholder="Subject*" type="text"/><br/>
                 <input className="yourMessage w-50 py-5 my-2" placeholder="Your Text*" type="text"/><br/>
                 <button style={{background:' linear-gradient(to right, #C33764 0%, #1D2671 100%) '}} className="btn px-3 py-2">Submit</button>
-
-
-
             </div>
-            
         </section>
     );
 };

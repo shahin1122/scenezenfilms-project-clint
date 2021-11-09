@@ -8,7 +8,6 @@ const Home = () => {
         
         <div className="mx-0 px-0 bg-class bg-left bg-right">
             <Header></Header>
-           
         </div>
     );
 };

@@ -9,9 +9,6 @@ import './Login.css'
 import googleImage from '../../image/google-logo-9808.png'
 import Navbar from '../Home/Navbar/Navbar'
 
-
-
-
 const Login = () => {
 
     const [loggedInUser , setLoggedInUser] = useContext(UserContext);
@@ -29,11 +26,8 @@ const Login = () => {
         firebase.app(); 
      }
 
-
-     const handleGoogleSignIn=()=>{
+    const handleGoogleSignIn=()=>{
         var provider = new firebase.auth.GoogleAuthProvider();
-    
-    
     
         firebase.auth()
             .signInWithPopup(provider)
@@ -52,11 +46,7 @@ const Login = () => {
                 setUserToken();
                
                 //return signedInUser;
-
-               
-    
-               
-            })
+        })
 
            
             
@@ -74,44 +64,21 @@ const Login = () => {
           const setUserToken = () => {
             firebase.auth().currentUser.getIdToken(/* forceRefresh */ true).then(function(idToken) {
                 sessionStorage.setItem('token' , idToken)
-                // ...
+                // 
               }).catch(function(error) {
                 // Handle error
               });
           }  
-    
-    
-    
     }
-
-   
-
-     
-
-    
-        return (
+    return (
             <div>
-                
-                
-        
-              
                <Navbar></Navbar>
-               <div className="loginArea">
-                    
-              
+                <div className="loginArea">
                    <img src={googleImage} className="d-flex justify-content-center center" alt=""/>
                    <button onClick={handleGoogleSignIn} className="googleloginBtn btn my-5 px-5 d-flex justify-content-center">Login With Google</button>
                    <label className="text-light d-flex justify-content-center center " htmlFor="">Don't want to get any service?</label>
                    <button className="btn btn-warning d-flex justify-content-center center "> <a className="decoration-none" href="/">Home </a></button>
-
-                 
-                  
-                   
                 </div>
-
-
-    
-                
             </div>
         );
     };
